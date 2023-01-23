@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+            margin: 0px;
+            padding: 0px;
+            height: 1000px;
+        }
+        nav{
+            background-color:#957bbe;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: none;
+            border-radius: 4px;
+            position: relative;
+            padding: 4px;
+            width: 85%;
+            margin-left: 10%;
+            display: inline-block;
+            margin-right: 10%;
+        }
+        .searching{
+            padding-inline-start: 500px;
+        }
+        .navbar input{
+            border-radius: 5px;
+            padding: 6px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding-inline-end: 183px;
+        }
+        .under li a:hover, .under li a.active{
+            transition: 0.3s;
+            text-decoration: underline;
+            color: white;
+        }
+        h1{
+            font-family: cursive;
+            font-weight: 1000;
+            text-align: center;
+            text-shadow: 1px 1px ;
+            text-underline-position: unset;
+            text-decoration: underline;
+        }
+        .box{
+            border: 1px thin black;
+            width: 300px;
+            height: 300px;
+            display: inline-flexbox;
+            display: inline-block;
+            margin-left: 40px;
+            background-color: #72c2be;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .box1{
+            text-align: center;
+        }
+        .container{
+            border: 1px thin black;
+            height: 300px;
+        }
+        p{
+            text-align: center;
+            font-style: italic;
+            font-weight: 700;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            
+        }
+        li{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+        }
+        
+        
+</style>
+<header class="navbar">
+    <nav>
+        <ul class="under">
+            <li><a href="./homepage.html">HOME</a></li>
+            <li><a class="active" href="./learn.html">BOOKS</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+            <li><a href="./loginpage.html">LOGIN</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+       <h1>SOME SUGGESTED BOOKS</h1>
+       <div class="container">
+       <div class="box" id="box1">
+        <p>COMPUTER SCIENCE</p>
+          <li>Algorithms,by Robert Sedgewick and Kevin Wayne</li>
+       </div>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div class="box" id="box2">
+        <p>ELECTRONICS</p>
+        <li>The Art of Electronics-Paul Horowitz, 1980</li>
+       </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div class="box" id="box3">
+        <p>MECHANICAL</p>
+        <li>
+            Mechanical Engineering
+            -J.K. Gupta, 1984</li>
+         
+       </div>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </div>
+</body>
+</html>
